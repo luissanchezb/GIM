@@ -35,7 +35,7 @@ CREATE TABLE Empleado(
 CREATE TABLE Plan(
 	Plan_Id serial PRIMARY KEY,
 	Plan_Nombre varchar (50),
-	Plan_Descripcion text [],
+	Plan_Descripcion varchar(500),
 	Plan_Precio real Default 0
 	);
     
